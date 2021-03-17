@@ -1,0 +1,5 @@
+package com.nirajan.websockets.api.models;
+
+public class ChatMessage {
+
+}

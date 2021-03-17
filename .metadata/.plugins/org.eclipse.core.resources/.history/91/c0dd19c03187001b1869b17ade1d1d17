@@ -1,0 +1,5 @@
+package com.nirajan.websockets.api.config;
+
+public class WebSocketConfig {
+
+}

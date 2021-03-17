@@ -1,0 +1,15 @@
+package com.nirajan.websockets.api.comtroller;
+
+import org.springframework.messaging.handler.annotation.Payload;
+import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
+import org.springframework.stereotype.Controller;
+
+import com.nirajan.websockets.api.models.ChatMessage;
+
+@Controller
+public class ChatController {
+	public ChatMessage register(@Payload ChatMessage chatMessage,
+					SimpMessageHeaderAccessor headerAccessor) {
+		
+	}
+}
